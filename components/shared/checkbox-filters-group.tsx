@@ -17,6 +17,7 @@ interface Props {
   className?: string;    
 }
 
+
 export const CheckboxFiltersGroup: React.FC<Props> = ({
   title, 
   items, 
@@ -24,7 +25,9 @@ export const CheckboxFiltersGroup: React.FC<Props> = ({
   limit = 6, 
   searchInputPlaceholder = 'Поиск...',
   className,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onChange,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   defaultValue,
 }) => {
 
