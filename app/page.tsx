@@ -71,52 +71,38 @@ export default function Home() {
                 categoryId={1}              
               />
               <ProductGroupList 
-                title="Завтрак"
+                title="Комбо"
+                categoryId={2}    
                 items={[
                   {
-                    id: 1,
+                    id: 7,
                     name: "Сырный цыпленок",
                     imageUrl: "https://media.dodostatic.net/image/r:233x233/11EE7D610E8BBB248F31270BE742B4BD.avif",
                     price: 600,
                     items: [{ price: 600 }],
                   },
                   {
-                    id: 2,
+                    id: 8,
                     name: "Сырный цыпленок",
                     imageUrl: "https://media.dodostatic.net/image/r:233x233/11EE7D610E8BBB248F31270BE742B4BD.avif",
                     price: 600,
                     items: [{ price: 600 }],
                   },
                   {
-                    id: 3,
+                    id: 9,
                     name: "Сырный цыпленок",
                     imageUrl: "https://media.dodostatic.net/image/r:233x233/11EE7D610E8BBB248F31270BE742B4BD.avif",
                     price: 600,
                     items: [{ price: 600 }],
                   },
                   {
-                    id: 4,
+                    id: 10,
                     name: "Сырный цыпленок",
                     imageUrl: "https://media.dodostatic.net/image/r:233x233/11EE7D610E8BBB248F31270BE742B4BD.avif",
                     price: 600,
                     items: [{ price: 600 }],
                   },
-                  {
-                    id: 5,
-                    name: "Сырный цыпленок",
-                    imageUrl: "https://media.dodostatic.net/image/r:233x233/11EE7D610E8BBB248F31270BE742B4BD.avif",
-                    price: 600,
-                    items: [{ price: 600 }],
-                  },
-                  {
-                    id: 6,
-                    name: "Сырный цыпленок",
-                    imageUrl: "https://media.dodostatic.net/image/r:233x233/11EE7D610E8BBB248F31270BE742B4BD.avif",
-                    price: 600,
-                    items: [{ price: 600 }],
-                  },
-                ]} 
-                categoryId={1}              
+                ]}           
               />
             </div>  
           </div>
